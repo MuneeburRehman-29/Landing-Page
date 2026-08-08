@@ -1,0 +1,42 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;    
+
+}
+
+.section1{
+    background-color: #1f2937;
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+a{
+    text-decoration: none;
+    margin: 17px 10px;
+    color: #f9faf8;
+
+}
+
+.hero{
+    color: #f9faf8;
+}
