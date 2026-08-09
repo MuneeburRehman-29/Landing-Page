@@ -11,6 +11,9 @@ body{
     background-color: #1f2937;
     font-family: "Roboto", sans-serif;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
@@ -19,6 +22,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 
@@ -42,10 +46,12 @@ a{
 .hero{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 h1{
     color: #f9faf8;
+    margin: 7px auto;
     
 }
 
@@ -53,4 +59,80 @@ h1{
     height: 250px;
     width: 350px;
     color: #e5e7eb;
+}
+
+.hero-p{
+    margin: 7px auto;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    font-weight: bold;
+    padding: 4px 16px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 12px 0px;
+    height: 330px;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.imgtext{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    width: 120px;
+    margin: 0px 20px;
+    color: #1F2937;
+
+
+}
+
+h2{
+    font-weight: 900px;
+}
+
+.section3{
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    
+    color: #1f2937;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    width: 570px;
+    margin: 5px 0px;
+
+}
+
+.author{
+    font-weight: bold;
+    color: black;
+    margin: 5px 0px;
+    margin-left: 470px;
+
+}
+
+.calltoaction{
+    background-color: #3882F6;
+    
 }
